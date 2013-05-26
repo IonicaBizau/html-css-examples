@@ -9,4 +9,4 @@ For "Sydney, NSW" will return `(-33.8674869, 151.20699020000006)`.
 
 
 ## Live Preview:
-Click [here](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/geocoding-service-example/master/index.html) for live preview.
+Click [here](http://htmlpreview.github.com/?https://github.com/IonicaBizau/HTML-CSS-tests/blob/master/Geocoding%20Google%20Service/index.html) for live preview.
