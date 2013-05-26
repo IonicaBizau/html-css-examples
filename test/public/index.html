@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Manipulating DOM</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="controller.js"></script>
+</head>
+<body>
+    <center>
+        <img src="header.jpg" title="This is an image."/>
+        
+        <h1>Insert or remove items.</h1>
+        <input id="itemContent" type="text" value="" />
+        <button onclick="addItem('list', itemContent.value)">Add item</button>
+        <ul id="list">
+            <li id="itemNr1">Item 1 <button class="removeButton" onclick="removeItem('list', this.parentElement)">Remove</button></li>
+            <li id="itemNr1">Item 2 <button class="removeButton" onclick="removeItem('list', this.parentElement)">Remove</button></li>
+            <li id="itemNr1">Item 3 <button class="removeButton" onclick="removeItem('list', this.parentElement)">Remove</button></li>
+            <li id="itemNr1">Item 4 <button class="removeButton" onclick="removeItem('list', this.parentElement)">Remove</button></li>
+            <li id="itemNr1">Item 5 <button class="removeButton" onclick="removeItem('list', this.parentElement)">Remove</button></li>
+        </ul>
+    </center>
+</body>
+</html>
