@@ -1,5 +1,5 @@
-geocoding-service-example
-=========================
+Geocoding Google Service
+========================
 
 Using [Google API](https://developers.google.com/maps/documentation/javascript/geocoding) for convert a string location into lat and long.
 
