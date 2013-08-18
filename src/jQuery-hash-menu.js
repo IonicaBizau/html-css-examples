@@ -1,9 +1,21 @@
+var CONSTANTS = {
+    defaultPage: "#home",
+    classes: {
+        active: "active"
+    },
+    pages: ".pages",
+    menu: ".nav",
+    menuItem: "li"
+};
+
+var DATA_PAGE = "data-page";
+
 $(document).ready(function () {
 
-    $("[data-page]").addClass("hide");
+    $("[" + DATA_PAGE + "]").show();
     showPage(location.hash);
 
-    $(window).on('hashchange', function () {
+    $(window).on("hashchange", function () {
         var newPage = location.hash;
         showPage(newPage);
     });
@@ -12,28 +24,27 @@ $(document).ready(function () {
 function showPage (hash) {
 
     if (!hash) {
-        // TODO Default settings
-        hash = "#home";
+        hash = CONSTANTS.defaultPage;
     }
 
     var $menuItem = $("[href='" + hash + "']");
     var page = hash.substring(1);
 
-    var $nav = $(".nav");
-    $nav.find("li").removeClass("active");
-    $menuItem.parent().addClass("active");
+    var $nav = $(CONSTANTS.menu);
+    $nav.find(CONSTANTS.menuItem).removeClass(CONSTANTS.classes.active);
+    $menuItem.parent().addClass(CONSTANTS.classes.active);
 
-    var $pages = $(".pages");
+    var $pages = $(CONSTANTS.pages);
 
-    var $newPage = $pages.find("[data-page='" + page + "']");
-    var $activePage = $pages.find("[data-page].active");
+    var $newPage = $pages.find("[" + DATA_PAGE + "='" + page + "']");
+    var $activePage = $pages.find("[" + DATA_PAGE + "].active");
 
     if (!$activePage.length) {
-        $newPage.addClass("active").hide().fadeIn();
+        $newPage.addClass(CONSTANTS.classes.active).hide().fadeIn();
     }
 
     $activePage.fadeOut(function () {
-        $activePage.removeClass("active");
-        $newPage.addClass("active").hide().fadeIn();
+        $activePage.removeClass(CONSTANTS.classes.active);
+        $newPage.addClass(CONSTANTS.classes.active).hide().fadeIn();
     });
 }
