@@ -1,0 +1,26 @@
+{
+  "name": "bs-flat-ui-test",
+  "version": "0.1.0",
+  "description": "A test using TW Bootstrap Flat UI theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "MIT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin git@github.com:IonicaBizau/bs-flat-ui-test.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "twitter",
+    "flat",
+    "ui",
+    "test"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/bs-flat-ui-test/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/bs-flat-ui-test"
+}
