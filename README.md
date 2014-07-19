@@ -1,6 +1,10 @@
 # bs-flat-ui-test
 A test using TW Bootstrap Flat UI theme.
 
+## Demo
+
+![](http://i.imgur.com/iKPGIca.png)
+
 ## Installation
 Run the following commands to download and install the application:
 
