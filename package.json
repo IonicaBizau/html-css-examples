@@ -1,0 +1,19 @@
+{
+  "name": "test-cytoscape.js",
+  "version": "0.0.0",
+  "description": "Testing cytoscapge.js library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/test-cytoscape.git"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/test-cytoscape/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/test-cytoscape"
+}
