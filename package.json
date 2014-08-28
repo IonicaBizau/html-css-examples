@@ -1,0 +1,24 @@
+{
+  "name": "test-json-editor",
+  "version": "1.0.0",
+  "description": "A test application for testing JSON editor library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/test-json-editor.git"
+  },
+  "keywords": [
+    "json",
+    "editor",
+    "test"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/test-json-editor/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/test-json-editor"
+}
