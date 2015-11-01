@@ -1,4 +1,4 @@
-# Learning Node.js [![Support this project][donate-now]][paypal-donations]
+# HTML & CSS Examples [![Support this project][donate-now]][paypal-donations]
 A collection of HTML and CSS examples.
 
 Some of the examples are not well documented, but when you need help, feel free to open issues.
