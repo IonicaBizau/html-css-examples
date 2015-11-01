@@ -3,8 +3,10 @@ A collection of HTML and CSS examples.
 
 Some of the examples are not well documented, but when you need help, feel free to open issues.
 Like always, contributions are more than welcome!
+- [`bootstrap-flat`](/bootstrap-flat/)
  - [`bootstrap`](/bootstrap/)
  - [`css-bubbles`](/css-bubbles/)
+- [`cytoscape`](/cytoscape)
  - [`geocoding-google-service`](/geocoding-google-service/)
  - [`google-maps`](/google-maps/)
  - [`json-editor`](/json-editor/)
