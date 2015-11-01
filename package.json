@@ -1,25 +1,41 @@
 {
-  "name": "testing-streams",
-  "version": "0.0.0",
-  "description": "A project to test write streams.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:IonicaBizau/testing-streams.git"
-  },
-  "keywords": [
-    "streams",
-    "write",
-    "node",
-    "log"
-  ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/IonicaBizau/testing-streams/issues"
-  },
-  "homepage": "https://github.com/IonicaBizau/testing-streams"
+    "name": "html-css-examples",
+    "version": "0.0.0",
+    "description": "A project to test write streams.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:IonicaBizau/html-css-examples.git"
+    },
+    "keywords": [
+        "streams",
+        "write",
+        "node",
+        "log"
+    ],
+    "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+    "license": "KINDLY",
+    "bugs": {
+        "url": "https://github.com/IonicaBizau/html-css-examples/issues"
+    },
+    "homepage": "https://github.com/IonicaBizau/html-css-examples",
+    "blah": {
+        "description": [
+            "Some of the examples are not well documented, but when you need help, feel free to open issues.",
+            "Like always, contributions are more than welcome!",
+            " - [`bootstrap`](/bootstrap/)",
+            " - [`css-bubbles`](/css-bubbles/)",
+            " - [`geocoding-google-service`](/geocoding-google-service/)",
+            " - [`google-maps`](/google-maps/)",
+            " - [`json-editor`](/json-editor/)",
+            " - [`manipulating-dom`](/manipulating-dom/)",
+            " - [`one-person-chat`](/one-person-chat/)",
+            " - [`radio-buttons`](/radio-buttons/)"
+        ],
+        "title": "Learning Node.js",
+        "documentation": "Documentation should be available in each project, but if it is not, feel free to ask questions using the issue tracker."
+    }
 }
