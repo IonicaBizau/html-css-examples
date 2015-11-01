@@ -1,0 +1,29 @@
+.bubble:after {
+    border-color: transparent #0094D5;
+    border-style: solid;
+    border-width: 0 30px 50px 0;
+    bottom: -50px;
+    content: "";
+    display: block;
+    left: 140px;
+    position: absolute;
+    width: 0;
+}
+
+.bubble {
+    background: none repeat scroll 0 0 #1E66A1;
+    border: 8px solid #0094D5;
+    border-radius: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 20px 10px 0 10px;
+    position: absolute;
+    width: 170px;
+    text-align: center;
+}
+
+blockquote {
+    margin: 1em 0;
+}

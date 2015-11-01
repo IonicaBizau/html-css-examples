@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script>
+            var geocoder;
+            var map;
+
+            function initialize() {
+                geocoder = new google.maps.Geocoder();
+            }
+
+            function getPositions() {
+                var address = document.getElementById("address").value;
+
+                codeAddress(address, function(location) {
+                        console.log(location);
+                    alert(location);
+                });
+            }
+
+            function codeAddress(address, callback) {
+                geocoder.geocode( { 'address': address}, function(results, status) {
+                    if (status == google.maps.GeocoderStatus.OK) {
+                        callback(results[0].geometry.location);
+                    }
+                    else {
+                        callback("No location found.");
+                    }
+                });
+            }
+        </script>
+    </head>
+    <body onload="initialize()">
+      <div>
+        <input id="address" type="textbox" value="Sydney, NSW">
+        <input type="button" value="Encode" onclick="getPositions()">
+      </div>
+    </body>
+</html>

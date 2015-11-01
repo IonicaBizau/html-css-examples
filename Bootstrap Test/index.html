@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Bootstrap test page</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.min.js"></script>
+    
+    <script>
+        function startProgress() {
+            var progress = 0;
+            var time = 100;
+            
+            var interval = window.setInterval(function(){
+                if(progress < 400){
+                    progress += Math.floor(Math.random()*10);
+                    $("#myProgBar").css("width", progress);
+                }
+                else {
+                    progress = 400;
+                    clearInterval(interval);
+                }
+            }, time);
+        }
+        
+        function viewMore() {
+            $("#myText").fadeIn(700);
+        }
+    </script>
+</head>
+<body onload="$('#container').fadeIn(700)">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <a class="brand" href="index.html">Bootstrap test</a>
+            <ul class="nav">
+                <li class="active"><a href="index.html"><i class="icon-home icon-white"></i> Home</a></li>
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="progressbars.html">Progress bars</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="container" style="margin: 10px 0 0 10px; display:none">
+        <div style="width: 90%; height: 240px;" class="hero-unit fade in">
+            <h1>Welcome!</h1>
+            <p>This is an example about using bootstrap.</p>
+            <p><a onClick="viewMore()" class="btn btn-primary btn-large">View more</a></p>
+            <img id="myImg" class="thumbnail" style="margin: -200px 0 0 800px; position: absolute;" src="images/landscape.jpg"/>
+        </div>
+        
+        <center>
+            <div class="well well-large" style="width:90%; display:none" id="myText">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum consequat elit id lacinia. Sed lacinia interdum ante a iaculis. Nulla viverra ullamcorper sem, ac iaculis neque cursus eget. Fusce tellus lectus, mattis non rutrum nec, condimentum vitae nibh. Morbi tristique tellus non lectus congue id ullamcorper tellus pellentesque. Sed hendrerit ultricies malesuada. Cras vitae blandit libero. Phasellus mattis posuere turpis, placerat vulputate mauris porttitor ut. Suspendisse et magna erat, suscipit auctor nisl. Aliquam ornare porta dolor id malesuada. Proin eget ipsum id metus posuere mollis non nec felis. In et ante quis nibh porttitor venenatis ac consequat odio.</p>
+            </div>
+        <center>
+    </div>
+</body>
+<html>
