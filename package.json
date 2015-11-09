@@ -1,43 +1,44 @@
 {
-    "name": "html-css-examples",
-    "version": "0.0.0",
-    "description": "A collection of HTML and CSS examples.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:IonicaBizau/html-css-examples.git"
-    },
-    "keywords": [
-        "streams",
-        "write",
-        "node",
-        "log"
+  "name": "html-css-examples",
+  "version": "0.1.0",
+  "description": "A collection of HTML and CSS examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/html-css-examples.git"
+  },
+  "keywords": [
+    "streams",
+    "write",
+    "node",
+    "log"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/html-css-examples/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/html-css-examples",
+  "blah": {
+    "description": [
+      "Some of the examples are not well documented, but when you need help, feel free to open issues.",
+      "Like always, contributions are more than welcome!",
+      "- [`bootstrap-flat`](/bootstrap-flat/)",
+      " - [`bootstrap`](/bootstrap/)",
+      " - [`css-bubbles`](/css-bubbles/)",
+      "- [`cytoscape`](/cytoscape)",
+      " - [`geocoding-google-service`](/geocoding-google-service/)",
+      " - [`google-maps`](/google-maps/)",
+      " - [`json-editor`](/json-editor/)",
+      " - [`manipulating-dom`](/manipulating-dom/)",
+      " - [`one-person-chat`](/one-person-chat/)",
+      " - [`radio-buttons`](/radio-buttons/)"
     ],
-    "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
-    "license": "KINDLY",
-    "bugs": {
-        "url": "https://github.com/IonicaBizau/html-css-examples/issues"
-    },
-    "homepage": "https://github.com/IonicaBizau/html-css-examples",
-    "blah": {
-        "description": [
-            "Some of the examples are not well documented, but when you need help, feel free to open issues.",
-            "Like always, contributions are more than welcome!",
-            "- [`bootstrap-flat`](/bootstrap-flat/)",
-            " - [`bootstrap`](/bootstrap/)",
-            " - [`css-bubbles`](/css-bubbles/)",
-            "- [`cytoscape`](/cytoscape)",
-            " - [`geocoding-google-service`](/geocoding-google-service/)",
-            " - [`google-maps`](/google-maps/)",
-            " - [`json-editor`](/json-editor/)",
-            " - [`manipulating-dom`](/manipulating-dom/)",
-            " - [`one-person-chat`](/one-person-chat/)",
-            " - [`radio-buttons`](/radio-buttons/)"
-        ],
-        "title": "HTML & CSS Examples",
-        "documentation": "Documentation should be available in each project, but if it is not, feel free to ask questions using the issue tracker."
-    }
+    "title": "HTML & CSS Examples",
+    "documentation": "Documentation should be available in each project, but if it is not, feel free to ask questions using the issue tracker.",
+    "license_year": "2013\n"
+  }
 }
