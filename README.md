@@ -18,7 +18,7 @@ Like always, contributions are more than welcome!
 ## Installation
 
 ```sh
-$ npm i -g html-css-examples
+$ npm i html-css-examples
 ```
 
 ## Documentation
