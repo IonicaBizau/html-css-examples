@@ -1,6 +1,6 @@
-# HTML & CSS Examples [![Support this project][donate-now]][paypal-donations]
+# HTML & CSS Examples [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/html-css-examples.svg)](https://www.npmjs.com/package/html-css-examples) [![Downloads](https://img.shields.io/npm/dt/html-css-examples.svg)](https://www.npmjs.com/package/html-css-examples) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-A collection of HTML and CSS examples.
+> A collection of HTML and CSS examples.
 
 Some of the examples are not well documented, but when you need help, feel free to open issues.
 Like always, contributions are more than welcome!
@@ -14,6 +14,10 @@ Like always, contributions are more than welcome!
  - [`manipulating-dom`](/manipulating-dom/)
  - [`one-person-chat`](/one-person-chat/)
  - [`radio-buttons`](/radio-buttons/)
+
+## Documentation
+
+Documentation should be available in each project, but if it is not, feel free to ask questions using the issue tracker.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
