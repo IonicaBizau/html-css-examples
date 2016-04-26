@@ -1,8 +1,8 @@
 {
   "name": "html-css-examples",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A collection of HTML and CSS examples.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -40,5 +40,16 @@
     "title": "HTML & CSS Examples",
     "documentation": "Documentation should be available in each project, but if it is not, feel free to ask questions using the issue tracker.",
     "license_year": "2013\n"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
